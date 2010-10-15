@@ -1,0 +1,31 @@
+pre.sh_sourceCode .sh_string      { font-family: inherit; }
+pre.sh_sourceCode .sh_regexp      { font-family: inherit; }
+pre.sh_sourceCode .sh_specialchar { font-family: inherit; }
+pre.sh_sourceCode .sh_linenum     { font-family: inherit; }
+pre.sh_sourceCode .sh_url         { font-family: inherit; }
+pre.sh_sourceCode .sh_fixed       { font-family: inherit; }
+
+@media print {
+  .slide:first-child { margin-top: 0; }
+
+  .slide .center {
+      width: 1020px;
+      height: 740px;
+      margin: 40px;
+  }
+  
+  #preso, .slide {
+      width: 1020px;
+      height: 740px;
+      margin: 40px;
+  }
+  pre, code { font-family: DejaVu Sans Mono; }
+}
+
+@media screen {
+  code { font-size: 65%; font-family: DejaVu Sans Mono; }
+}
+
+.content {
+  margin-top: 20px !important;
+}
