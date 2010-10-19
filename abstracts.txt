@@ -1,0 +1,24 @@
+Finger Trees: Custom Persistent Collections
+
+Clojure's existing persistent collection types cover many usage
+scenarios, but do leave a few gaps.  Finger trees can fill gaps such
+as sorted sets with efficient support for 'nth', sequential
+collections that can grow at the front, the back, or even insert
+values anywhere in the middle, and more.  In fact, finger trees can be
+customized to support a variety of application-specific needs while
+remaining persistent and playing nicely with Clojure's sequence and
+collection abstractions.  We'll look at examples of using and
+customizing finger trees, and talk a bit about how their internals.
+
+
+
+Get Your Hooks In: The Clojure Compiler and How to Exploit It
+
+"REPL" is an over-simplification.  The actual steps Clojure goes
+through include read-time evaluation, name resolution, inline
+function expansion, macro expansion, analysis, bytecode generation and
+loading, and finally evaluation and printing.  Many of these steps
+provide ways to hook in your code to improve performance, REPL
+interaction, etc.  We'll look at what exactly Clojure does when you
+press Enter at the REPL, and how you can exploit it for fun and
+profit.
