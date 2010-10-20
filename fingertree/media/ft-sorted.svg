@@ -26,7 +26,7 @@
      inkscape:cx="635.27946"
      inkscape:cy="491.07737"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4250"
      showgrid="false"
      inkscape:window-width="1276"
      inkscape:window-height="747"
@@ -880,7 +880,7 @@
        sodipodi:nodetypes="cc" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="counted sorted"
      id="layer3"
      inkscape:groupmode="layer">
@@ -1376,7 +1376,7 @@
        rx="14.0625" />
   </g>
   <g
-     style="display:none"
+     style="display:inline"
      inkscape:label="sorted"
      id="g4250"
      inkscape:groupmode="layer">
@@ -1624,7 +1624,7 @@
        ry="14.0625" />
   </g>
   <g
-     style="display:inline"
+     style="display:none"
      inkscape:label="lookup"
      id="layer2"
      inkscape:groupmode="layer">

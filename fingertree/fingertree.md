@@ -93,7 +93,7 @@
     @@@clojure
     (apply double-list '[a b c d e f g h i j k l m])
 
-<embed src="image/fingertree/media/ft1-rev.svg" width="1024" height="768" type="image/svg+xml" />
+<embed src="image/fingertree/media/ft-double-list.svg" width="1024" height="768" type="image/svg+xml" />
 
 !SLIDE transition=fade
 
@@ -104,7 +104,7 @@
     @@@clojure
     (apply counted-double-list '[a b c d e f g h i j k l m]))
 
-<embed src="image/fingertree/media/ft-counted-rev.svg" width="1024" height="768" type="image/svg+xml" />
+<embed src="image/fingertree/media/ft-counted.svg" width="1024" height="768" type="image/svg+xml" />
 
 !SLIDE center transition=fade
 
@@ -115,7 +115,7 @@
     @@@clojure
     (nth cdl 5)
 
-<embed src="image/fingertree/media/ft-counted-lookup-rev.svg" width="1024" height="768" type="image/svg+xml" />
+<embed src="image/fingertree/media/ft-counted-lookup.svg" width="1024" height="768" type="image/svg+xml" />
 
 !SLIDE center transition=scrollLeft
 
@@ -125,7 +125,7 @@
     (ft-split-at cdl 5)
     ;=> [(a b c d e) f (g h i j k l m)]
 
-<embed src="image/fingertree/media/ft-split-rev.svg" width="1024" height="768" type="image/svg+xml" />
+<embed src="image/fingertree/media/ft-split.svg" width="1024" height="768" type="image/svg+xml" />
 
 !SLIDE transition=scrollLeft
 
@@ -184,13 +184,13 @@
                   nil             ; “zero”
                   #(or %2 %1)))   ; combine
 
-<embed src="image/fingertree/media/ft-master.svg" width="1024" height="768" type="image/svg+xml" />
+<embed src="image/fingertree/media/ft-sorted.svg" width="1024" height="768" type="image/svg+xml" />
 
 !SLIDE bullets transition=scrollLeft
 
 # counted-sorted-set
 
-<embed src="image/fingertree/media/ft-master.svg" width="1024" height="768" type="image/svg+xml" />
+<embed src="image/fingertree/media/ft-counted-sorted.svg" width="1024" height="768" type="image/svg+xml" />
 
     @@@clojure
     (EmptyTree. (meter
