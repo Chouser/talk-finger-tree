@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="768"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="hands.svg"
+   style="display:inline">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="461.80512"
+     inkscape:cy="517.3779"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1276"
+     inkscape:window-height="747"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3383">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3385" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3387" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3383"
+       id="linearGradient3389"
+       x1="446"
+       y1="454"
+       x2="176"
+       y2="710"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3383"
+       id="radialGradient3399"
+       cx="542"
+       cy="358.46692"
+       fx="542"
+       fy="358.46692"
+       r="360.75"
+       gradientTransform="matrix(-0.68191268,0.69854468,-0.68185155,-0.66562079,1156.0179,219.99183)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="display:inline"
+     transform="translate(0,-284.36218)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.65957882,-0.7516354,0.81524167,0.5791209,0,0)"
+       y="505.72342"
+       x="-246.53532"
+       id="image3208"
+       height="174.49988"
+       width="99.400024"
+       inkscape:transform-center-x="3.7982719"
+       inkscape:transform-center-y="-10.781314" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.94067605,-0.33930601,0.4338733,0.9009739,0,0)"
+       y="485.75534"
+       x="147.72858"
+       id="image3204"
+       height="183.51846"
+       width="104.53726"
+       inkscape:transform-center-x="-1.9821457"
+       inkscape:transform-center-y="-11.857119" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       inkscape:transform-center-y="-13.841196"
+       inkscape:transform-center-x="0.41022606"
+       width="120.41247"
+       height="211.38789"
+       id="image3206"
+       x="-23.194248"
+       y="486.63596"
+       transform="matrix(0.85696441,-0.51537559,0.60044238,0.79966803,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.98938211,0.14533771,-0.0432325,0.99906504,0,0)"
+       y="253.32829"
+       x="499.47873"
+       id="image3200"
+       height="192.68602"
+       width="109.75936"
+       inkscape:transform-center-x="-7.7156537"
+       inkscape:transform-center-y="-9.9894391" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       inkscape:transform-center-y="-11.820055"
+       inkscape:transform-center-x="-6.1901126"
+       width="116.02586"
+       height="203.68709"
+       id="image3202"
+       x="359.87045"
+       y="340.23242"
+       transform="matrix(0.99956805,-0.02938898,0.13161852,0.99130044,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.7475477,0.66420813,-0.58414456,0.81164964,0,0)"
+       y="-157.40355"
+       x="742.61176"
+       id="image3196"
+       height="192.68602"
+       width="109.75936"
+       inkscape:transform-center-x="-11.930696"
+       inkscape:transform-center-y="-4.1205271" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       inkscape:transform-center-y="1.7504668"
+       inkscape:transform-center-x="-11.296073"
+       width="99.400024"
+       height="174.49988"
+       id="image3192"
+       x="769.78027"
+       y="-557.88232"
+       transform="matrix(0.35047183,0.93657327,-0.895749,0.44456016,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(-0.02098879,0.99977971,-0.9966711,0.08152741,0,0)"
+       y="-850.60413"
+       x="605.50958"
+       id="image3190"
+       height="174.49988"
+       width="99.400024"
+       inkscape:transform-center-x="-9.8464174"
+       inkscape:transform-center-y="5.8063291" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       inkscape:transform-center-y="9.4517234"
+       inkscape:transform-center-x="-6.4287867"
+       width="99.400024"
+       height="174.49988"
+       id="image3188"
+       x="297.79233"
+       y="-1051.8281"
+       transform="matrix(-0.44546011,0.89530179,-0.9362206,-0.35141286,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.58861696,-0.80841207,0.86445121,0.50271673,0,0)"
+       y="478.45834"
+       x="-355.44635"
+       id="image3186"
+       height="174.49988"
+       width="99.400024"
+       inkscape:transform-center-x="4.761398"
+       inkscape:transform-center-y="-10.391966" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       width="89.020271"
+       height="159.56677"
+       id="image3180"
+       x="-776.50201"
+       y="37.321663"
+       transform="matrix(-0.24895659,-0.96851464,0.9339429,-0.35742224,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.30124783,-0.95354588,0.98160596,0.19091817,0,0)"
+       y="375.81198"
+       x="-600.11145"
+       id="image3182"
+       height="159.56677"
+       width="89.020271" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       inkscape:transform-center-y="-9.8018547"
+       inkscape:transform-center-x="5.8811144"
+       width="99.400024"
+       height="174.49988"
+       id="image3184"
+       x="-451.91827"
+       y="481.61917"
+       transform="matrix(0.49563343,-0.86853181,0.91473059,0.40406429,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.63078637,-0.77595654,0.8426219,0.53850565,0,0)"
+       y="635.00244"
+       x="-401.18796"
+       id="image3170"
+       height="255.76205"
+       width="142.68639" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       inkscape:transform-center-y="-8.0042222"
+       inkscape:transform-center-x="-9.7597599"
+       width="109.75936"
+       height="192.68602"
+       id="image3198"
+       x="631.89075"
+       y="101.32407"
+       transform="matrix(0.93157053,0.36356065,-0.26622922,0.96390975,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       width="138.43935"
+       height="250.58037"
+       id="image3176"
+       x="287.77084"
+       y="531.51923"
+       transform="matrix(0.991134,-0.13286605,0.24090909,0.97054769,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       inkscape:transform-center-y="-2.9308569"
+       inkscape:transform-center-x="-12.277187"
+       width="109.75936"
+       height="192.68602"
+       id="image3194"
+       x="801.24127"
+       y="-253.25183"
+       transform="matrix(0.67881687,0.73430761,-0.66091532,0.75046048,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.82160791,0.57005301,-0.47297723,0.88107465,0,0)"
+       y="53.76173"
+       x="705.84979"
+       id="image3178"
+       height="264.51471"
+       width="147.5694" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       transform="matrix(0.88083475,-0.47342385,0.57046947,0.82131881,0,0)"
+       y="623.35004"
+       x="-55.839172"
+       id="image3174"
+       height="282.57535"
+       width="157.6452" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       width="153.4095"
+       height="274.98294"
+       id="image3172"
+       x="817.34906"
+       y="-237.78415"
+       transform="matrix(0.58060909,0.81418247,-0.74291603,0.66938462,0,0)" />
+    <image
+       sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/myhand.png"
+       xlink:href="myhand.png"
+       width="208.58261"
+       height="397.37463"
+       id="image3166"
+       x="411.18555"
+       y="607.98755" />
+  </g>
+</svg>
