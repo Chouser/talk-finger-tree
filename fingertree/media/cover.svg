@@ -11,7 +11,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1024"
-   height="768"
+   height="268"
    id="svg2"
    version="1.1"
    inkscape:version="0.47 r22583"
@@ -87,7 +87,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.70710678"
      inkscape:cx="521.64762"
-     inkscape:cy="468.37475"
+     inkscape:cy="-53.045823"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -104,7 +104,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,70 +112,71 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-284.36218)">
+     transform="translate(0,-784.36218)">
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.50000000000000000;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect7289"
        width="548.71484"
        height="226.27417"
        x="210.71782"
-       y="2.9104629"
-       transform="translate(0,284.36218)" />
+       y="802.04639" />
     <text
        xml:space="preserve"
-       style="font-size:42.81311416999999864px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
+       style="font-size:42.81311417px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans Bold"
        x="630.35803"
-       y="301.27118"
+       y="762.52753"
        id="text2987"
        transform="scale(0.89603712,1.1160252)"><tspan
          sodipodi:role="line"
          id="tspan2989"
          x="630.35803"
-         y="301.27118"
+         y="762.52753"
          dx="0 -2.3890257 -2.3890257 0 -4.7780514 -3.5835385 -2.3890257 -1.1945128 -4.7780514 -1.1945128 0 -3.5835385 -3.5835385 -3.5835385 -2.5835385 -3.5835385 -3.5835385 -2.3890257">The Joy of Clojure</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:26.71013641000000050px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans;font-stretch:normal;font-variant:normal"
+       style="font-size:26.71013641px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="564.43689"
-       y="371.82349"
+       y="886.59723"
        id="text2991"><tspan
          sodipodi:role="line"
          id="tspan2993"
          x="564.43689"
-         y="371.82349">Thinking the Clojure Way</tspan></text>
+         y="886.59723">Thinking the Clojure Way</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:24.86711501999999996px;font-style:normal;font-weight:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans;font-stretch:normal;font-variant:normal"
+       style="font-size:24.86711502px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;font-family:DejaVu Sans;-inkscape-font-specification:DejaVu Sans"
        x="562.88293"
-       y="429.23474"
+       y="944.00848"
        id="text2995"><tspan
          sodipodi:role="line"
          id="tspan2997"
          x="562.88293"
-         y="429.23474">by Michael Fogus</tspan><tspan
+         y="944.00848">by Michael Fogus</tspan><tspan
          sodipodi:role="line"
          x="562.88293"
-         y="460.31863"
+         y="975.09235"
          id="tspan3009">and Chris Houser</tspan><tspan
          sodipodi:role="line"
          x="562.88293"
-         y="491.40253"
+         y="1006.1763"
          id="tspan3011">http://joyofclojure.com/</tspan></text>
     <g
        id="g3001"
-       transform="translate(31,-3)">
+       transform="translate(31,511.77374)">
       <image
+         sodipodi:absref="/home/chouser/proj/clojure-talk-finger-tree/fingertree/media/cover.jpg"
          xlink:href="cover.jpg"
-         width="159"
-         height="200"
-         id="image2922"
+         y="302.89865"
          x="192.59938"
-         y="302.89865" />
+         id="image2922"
+         height="200"
+         width="159" />
     </g>
     <flowRoot
        xml:space="preserve"
        id="flowRoot3013"
-       style="fill:#ffffff;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Bitstream Vera Sans;font-style:normal;font-weight:normal;font-size:40px"><flowRegion
+       style="font-size:40px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
+       transform="translate(0,514.77374)"><flowRegion
          id="flowRegion3015"><rect
            id="rect3017"
            width="547"

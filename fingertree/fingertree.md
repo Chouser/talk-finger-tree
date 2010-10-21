@@ -221,7 +221,7 @@ Hack around with them during the talk:<br/>
 
     (first (split-tree (rest ct) #(< 7 %)))
     ;=> ({:id :i, :cost 1} {:id :j, :cost 2}
-    ;    {:id :k, :cost 3})
+         {:id :k, :cost 3})
 
 !SLIDE bullets transition=scrollLeft
 
@@ -242,9 +242,11 @@ Hack around with them during the talk:<br/>
 * Performance
 * Primitives
 
-!SLIDE bullets transition=scrollLeft
+!SLIDE bullets center transition=scrollLeft
 
 # Questions?
 
-<embed src="image/fingertree/media/cover.svg" width="1024" height="768" type="image/svg+xml" />
+<embed src="image/fingertree/media/cover.svg" width="1024" height="268" type="image/svg+xml" />
+
+* <br/><br/>`http://tinyurl.com/fingertree`
 
