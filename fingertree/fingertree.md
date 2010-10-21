@@ -1,31 +1,16 @@
-!SLIDE bullets small transition=scrollLeft
-
-# Finger Trees
-
-* If you want to try them out during the talk...
-
-.notes .
-
-    @@@sh
-    git clone git://github.com/clojure/data.finger-tree.git fingertree
-    cd fingertree
-    mvn clojure:repl
-
-.notes .
-
-    @@@clojure
-
-    (use 'clojure.data.finger-tree)
-    (apply double-list '[a b c d e f g h i j k l m n o p q])
-
 !SLIDE center bullets
 
 # Finger Trees
 * Custom Persistent Collections
 
-* <br/>Chris Houser
-* a.k.a. Chouser
+* <br/>Chris Houser<br/>a.k.a. Chouser
 * Clojure Conj, Oct. 22 2010, Durham NC
+
+<h3>
+<br/>
+Hack around with them during the talk:<br/>
+<code style="font-size: 100%">http://tinyurl.com/fingertree</code>
+</h3>
 
 !SLIDE bullets incremental transition=scrollLeft
 
@@ -52,6 +37,7 @@
     [(pop dl) (peek dl)]
     ;=> [(4 5 6) 7]
 
+.notes rest/pop similar, not like on vector
 .notes conj is insufficient, cons is incorrect, for now must...
 
 !SLIDE bullets transition=scrollLeft
@@ -87,7 +73,6 @@
 .notes depth increases
 .notes first/peek easy
 .notes conjr/consl, push down, delay
-.notes rest/pop similar, not like on vector
 .notes but vector/pl are counted.  how could we?
 
     @@@clojure
@@ -160,13 +145,15 @@
 
 # Meter for counted-double-list
 
-    @@@clojure
-    (EmptyTree. (meter
-                  (constantly 1)  ; measure
-                  0               ; zero
-                  +))             ; combine
+.notes like sorted-map-by
 
-* “zero” and “combine” together form a *monoid*
+    @@@clojure
+    (finger-tree (meter
+                   (constantly 1)  ; measure
+                   0               ; measure of empty
+                   +))             ; combine
+
+* “measure of empty” and “combine” together form a *monoid*
 * Split uses a predicate, splits where the predicate changes from false to true
 
 .notes .
@@ -179,10 +166,10 @@
 # Meter for `_________`
 
     @@@clojure
-    (EmptyTree. (meter
-                  identity        ; measure
-                  nil             ; “zero”
-                  #(or %2 %1)))   ; combine
+    (finger-tree (meter
+                   identity        ; measure
+                   nil             ; “empty measure”
+                   #(or %2 %1)))   ; combine
 
 <embed src="image/fingertree/media/ft-sorted.svg" width="1024" height="768" type="image/svg+xml" />
 
@@ -192,11 +179,58 @@
 
 <embed src="image/fingertree/media/ft-counted-sorted.svg" width="1024" height="768" type="image/svg+xml" />
 
+!SLIDE bullets transition=scrollLeft
+
+# counted-sorted-set
+
     @@@clojure
-    (EmptyTree. (meter
-                  identity        ; measure
-                  nil             ; “zero”
-                  #(or %2 %1)))   ; combine
+    (def css (apply counted-sorted-set
+                    '[m j i e d a f k b c f g h l]))
+    css
+    ;=> (a b c d e f g h i j k l m)
+
+    (get css 'e)      ; O(log(n))
+    ;=> e
+
+    (get css 'ee)     ; O(log(n))
+    ;=> nil
+
+    (count css)       ; O(1)
+    ;=> 13
+
+    (nth css 5)       ; O(log(n))
+    ;=> f
+
+!SLIDE bullets transition=scrollLeft
+
+# Build-your-own finger tree
+
+    @@@clojure
+    (def empty-cost-tree (finger-tree (meter :cost 0 +)))
+
+    (def ct (conj empty-cost-tree
+                  {:id :h, :cost 5} {:id :i, :cost 1}
+                  {:id :j, :cost 2} {:id :k, :cost 3}
+                  {:id :k, :cost 4}))
+
+    (measured ct)
+    ;=> 11
+
+    (first (split-tree ct #(< 7 %)))
+    ;=> ({:id :h, :cost 5} {:id :i, :cost 1})
+
+    (first (split-tree (rest ct) #(< 7 %)))
+    ;=> ({:id :i, :cost 1} {:id :j, :cost 2}
+    ;    {:id :k, :cost 3})
+
+!SLIDE bullets transition=scrollLeft
+
+# Summary of `clojure.data.finger-tree`
+
+* double-list (add/remove on left/right)
+* counted-double-list (double-list plus nth)
+* counted-sorted-set (like sorted-set plus nth)
+* tools for building your own finger-tree
 
 !SLIDE bullets transition=scrollLeft
 
@@ -207,3 +241,10 @@
 * Tests for correctness, complexity
 * Performance
 * Primitives
+
+!SLIDE bullets transition=scrollLeft
+
+# Questions?
+
+<embed src="image/fingertree/media/cover.svg" width="1024" height="768" type="image/svg+xml" />
+
