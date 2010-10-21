@@ -159,7 +159,7 @@ Hack around with them during the talk:<br/>
 .notes .
 
     @@@clojure
-    (split-tree tree #(< 5 %))
+    (split-tree tree #(> % 5))
 
 !SLIDE bullets transition=scrollLeft
 
@@ -168,7 +168,7 @@ Hack around with them during the talk:<br/>
     @@@clojure
     (finger-tree (meter
                    identity        ; measure
-                   nil             ; “empty measure”
+                   nil             ; measure of empty
                    #(or %2 %1)))   ; combine
 
 <embed src="image/fingertree/media/ft-sorted.svg" width="1024" height="768" type="image/svg+xml" />
@@ -214,14 +214,14 @@ Hack around with them during the talk:<br/>
                   {:id :k, :cost 4}))
 
     (measured ct)
-    ;=> 11
+    ;=> 15
 
-    (first (split-tree ct #(< 7 %)))
-    ;=> ({:id :h, :cost 5} {:id :i, :cost 1})
+    (next (split-tree ct #(> % 7)))
+    ;=> ({:cost 2, :id :j}
+         ({:cost 3, :id :k} {:cost 4, :id :k}))
 
-    (first (split-tree (rest ct) #(< 7 %)))
-    ;=> ({:id :i, :cost 1} {:id :j, :cost 2}
-         {:id :k, :cost 3})
+    (next (split-tree (rest ct) #(> % 7)))
+    ;=> ({:cost 4, :id :k} ())
 
 !SLIDE bullets transition=scrollLeft
 
