@@ -162,6 +162,10 @@ Hack around with them during the talk:<br/>
     @@@clojure
     (split-tree tree #(> % 5))
 
+!SLIDE center transition=scrollLeft
+
+<img src="media/haskell.png" width="890" height="530" />
+
 !SLIDE bullets transition=scrollLeft
 
 # Meter for `_________`
