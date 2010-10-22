@@ -136,7 +136,8 @@ Hack around with them during the talk:<br/>
     ;=> (a b c d e g h i j k l m)
                   ^-- missing f
 
-    (ft-concat (into (:left parts) '[X Y Z]) (:right parts))
+    (ft-concat (into (:left parts) '[X Y Z])
+               (:right parts))
     ;=> (a b c d e X Y Z g h i j k l m)
 
 .notes nth still works
@@ -211,17 +212,17 @@ Hack around with them during the talk:<br/>
     (def ct (conj empty-cost-tree
                   {:id :h, :cost 5} {:id :i, :cost 1}
                   {:id :j, :cost 2} {:id :k, :cost 3}
-                  {:id :k, :cost 4}))
+                  {:id :l, :cost 4}))
 
     (measured ct)
     ;=> 15
 
     (next (split-tree ct #(> % 7)))
     ;=> ({:cost 2, :id :j}
-         ({:cost 3, :id :k} {:cost 4, :id :k}))
+         ({:cost 3, :id :k} {:cost 4, :id :l}))
 
     (next (split-tree (rest ct) #(> % 7)))
-    ;=> ({:cost 4, :id :k} ())
+    ;=> ({:cost 4, :id :l} ())
 
 !SLIDE bullets transition=scrollLeft
 
