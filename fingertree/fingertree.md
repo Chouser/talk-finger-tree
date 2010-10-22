@@ -3,14 +3,14 @@
 # Finger Trees
 * Custom Persistent Collections
 
-* <br/>Chris Houser<br/>a.k.a. Chouser
-* Clojure Conj, Oct. 22 2010, Durham NC
-
 <h3>
 <br/>
 Hack around with them during the talk:<br/>
 <code style="font-size: 100%">http://tinyurl.com/fingertree</code>
 </h3>
+
+* <br/>Chris Houser<br/>a.k.a. Chouser
+* Clojure Conj, Oct. 22 2010, Durham NC
 
 !SLIDE bullets incremental transition=scrollLeft
 
@@ -155,16 +155,21 @@ Hack around with them during the talk:<br/>
                    +))             ; combine
 
 * “measure of empty” and “combine” together form a *monoid*
+
+!SLIDE center transition=scrollLeft
+
+<img src="media/haskell.png" width="890" height="530" />
+
+!SLIDE bullets transition=scrollLeft
+
+# Split for counted-double-list
+
 * Split uses a predicate, splits where the predicate changes from false to true
 
 .notes .
 
     @@@clojure
     (split-tree tree #(> % 5))
-
-!SLIDE center transition=scrollLeft
-
-<img src="media/haskell.png" width="890" height="530" />
 
 !SLIDE bullets transition=scrollLeft
 
@@ -200,11 +205,11 @@ Hack around with them during the talk:<br/>
     (get css 'ee)     ; O(log(n))
     ;=> nil
 
-    (count css)       ; O(1)
-    ;=> 13
-
     (nth css 5)       ; O(log(n))
     ;=> f
+
+    (count css)       ; O(1)
+    ;=> 13
 
 !SLIDE bullets transition=scrollLeft
 
@@ -251,7 +256,9 @@ Hack around with them during the talk:<br/>
 
 # Questions?
 
+* `http://tinyurl.com/fingertree`<br/><br/>
+
 <embed src="image/fingertree/media/cover.svg" width="1024" height="268" type="image/svg+xml" />
 
-* <br/><br/>`http://tinyurl.com/fingertree`
+* <br/><br/><br/><br/>
 
