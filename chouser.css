@@ -44,6 +44,8 @@ html body .slide { background: #000; border: 1px solid #000; }
 #footer { background: #111; }
 html body .sh_sourceCode { color: #fff; background: #000; }
 pre.sh_sourceCode .sh_function { color: #fff; }
-pre.sh_sourceCode .sh_number   { color: #b0b; }
+pre.sh_sourceCode .sh_number   { color: #b5b; }
 pre.sh_sourceCode .sh_symbol   { color: #faa; }
 pre.sh_sourceCode .sh_comment  { color: #aaf; }
+pre.sh_sourceCode .sh_keyword  { color: #77f; }
+pre.sh_sourceCode .sh_cbracket { color: #f77; }
